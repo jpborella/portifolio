@@ -9,7 +9,7 @@
   
   **Portfólio pessoal moderno e responsivo, desenvolvido com as melhores práticas de desenvolvimento web.**
   
-  [🌐 Ver Demo](https://seu-portfolio.vercel.app) • [📧 Contato](mailto:jpborella1@gmail.com) • [💼 LinkedIn](https://www.linkedin.com/in/jo%C3%A3o-paulo-l-borella-738a56139/)
+  [🌐 Ver Demo](https://portifolio-pi-lyart.vercel.app/) • [📧 Contato](mailto:jpborella1@gmail.com) • [💼 LinkedIn](https://www.linkedin.com/in/jo%C3%A3o-paulo-l-borella-738a56139/)
   
 </div>
 
