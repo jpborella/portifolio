@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  @apply bg-background text-white antialiased;
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.80), rgba(0, 0, 0, 0.80)),
+    url('/images/home-background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.smooth-scroll {
+  scroll-behavior: smooth;
+}
+
+.container-padded {
+  @apply mx-auto max-w-7xl px-4 sm:px-6 lg:px-8;
+}
+
+.section {
+  @apply container-padded py-16 sm:py-20 lg:py-24;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
