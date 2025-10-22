@@ -12,7 +12,7 @@ export const portfolioData = {
     fullName: "João Paulo Lemes Borella",
     title: "Desenvolvedor Web Júnior",
     subtitle: "Desenvolvedor Web Frontend, futuro Fullstack em formação.",
-    profileImage: "../../public/images/perfil-png.png",
+    profileImage: "/images/perfil-png.png",
     actionButtons: [
       { text: "Projetos", href: "/projetos", primary: true },
       { text: "Contato", href: "/contato", primary: false },
