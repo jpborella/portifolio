@@ -18,7 +18,7 @@ export default function About() {
               <li key={item.label}>
                 <a
                   href={item.href}
-                  target={item.href.startsWith('http') ? '_blank' : undefined}
+                  target="_blank"
                   rel="noreferrer"
                   className="flex items-center gap-3 rounded-md border border-white/10 bg-white/5 hover:bg-white/10 transition-colors p-3"
                 >

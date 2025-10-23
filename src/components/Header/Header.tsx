@@ -23,7 +23,7 @@ export default function Header() {
       <nav className="container-padded flex items-center justify-between h-14">
         <a href="#home"
           className="font-semibold tracking-tight text-xl"
-          onClick={(e) => { e.preventDefault(); document.getElementById('home')?.scrollIntoView({ behavior: 'smooth' }) }}>
+          onClick={(e) => { e.preventDefault(); document.getElementById('home')?.scrollIntoView({ behavior: 'instant' }) }}>
           <span className="bg-gradient-to-r  from-primary to-secondary bg-clip-text text-transparent">JP Borella</span>
         </a>
 
@@ -43,7 +43,7 @@ export default function Header() {
               <li key={l.href}>
                 <a
                   href={`#${id}`}
-                  onClick={(e) => { e.preventDefault(); document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' }) }}
+                  onClick={(e) => { e.preventDefault(); document.getElementById(id)?.scrollIntoView({ behavior: 'instant' }) }}
                   className="text-base text-white/80 hover:text-primary transition-colors"
                 >
                   {l.name}
@@ -63,7 +63,7 @@ export default function Header() {
                 <li key={l.href}>
                   <a
                     href={`#${id}`}
-                    onClick={(e) => { e.preventDefault(); document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' }); setOpen(false) }}
+                    onClick={(e) => { e.preventDefault(); document.getElementById(id)?.scrollIntoView({ behavior: 'instant' }); setOpen(false) }}
                     className="block py-2 text-white/80 hover:text-primary transition-colors"
                   >
                     {l.name}

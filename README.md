@@ -42,7 +42,6 @@ Este é meu portfólio pessoal, desenvolvido para apresentar meus projetos, habi
 
 ### DevTools
 - **PostCSS** - Processador de CSS
-- **Autoprefixer** - Plugin PostCSS para adicionar vendor prefixes
 - **ESLint** - Linting de código
 - **TypeScript Compiler** - Compilador TypeScript
 
@@ -56,13 +55,13 @@ portifolio/
 │   └── images/          # Imagens estáticas
 ├── src/
 │   ├── components/      # Componentes React
-│   │   ├── About/       # Seção Sobre
-│   │   ├── Contact/     # Seção Contato
+│   │   ├── About/       # Sobre
+│   │   ├── Contact/     # Contato
 │   │   ├── Footer/      # Rodapé
 │   │   ├── Header/      # Cabeçalho/Navegação
-│   │   ├── Hero/        # Seção Hero
-│   │   ├── Projects/    # Seção Projetos
-│   │   ├── Skills/      # Seção Habilidades
+│   │   ├── Hero/        # Hero
+│   │   ├── Projects/    # Projetos
+│   │   ├── Skills/      # Habilidades
 │   │   └── shared/      # Componentes compartilhados
 │   ├── data/
 │   │   └── portfolioData.ts  # Dados do portfólio
@@ -101,7 +100,6 @@ Múltiplas formas de entrar em contato: LinkedIn, WhatsApp, E-mail e GitHub.
 
 ## 🎯 Funcionalidades
 
-- ✅ Navegação suave entre seções (smooth scroll)
 - ✅ Animações de entrada e transição
 - ✅ Cards interativos de projetos
 - ✅ Links diretos para redes sociais
@@ -110,8 +108,6 @@ Múltiplas formas de entrar em contato: LinkedIn, WhatsApp, E-mail e GitHub.
 - ✅ Otimização de imagens e assets
 
 ---
-
-
 
 ## 👤 Autor
 

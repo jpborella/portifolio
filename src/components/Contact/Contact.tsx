@@ -16,7 +16,7 @@ export default function Contact() {
           <motion.a
             key={b.text}
             href={b.href}
-            target={b.href.startsWith('http') ? '_blank' : undefined}
+            target="_blank"
             rel="noreferrer"
             className="rounded-xl bg-surface/60 border border-white/10 p-5 shadow-soft hover:border-primary/50 transition-colors flex items-center gap-3"
             initial={{ opacity: 0, y: 8 }}

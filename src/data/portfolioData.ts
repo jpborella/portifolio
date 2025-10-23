@@ -97,7 +97,10 @@ export const portfolioData = {
   ],
   contact: {
     buttons: [
-      { text: "Currículo", href: "/assets/curriculo.pdf", icon: "FaFileAlt" },
+      { text: "Currículo", 
+        href: "/assets/curriculo.pdf", 
+        icon: "FaFileAlt" 
+      },
       {
         text: "LinkedIn",
         href: "https://www.linkedin.com/in/jpborella/",

@@ -15,7 +15,7 @@ export default function Hero() {
             <a
               key={b.text}
               href={`#${b.href.replace('/', '')}`}
-              onClick={(e) => { e.preventDefault(); document.getElementById(b.href.replace('/', ''))?.scrollIntoView({ behavior: 'smooth' }) }}
+              onClick={(e) => { e.preventDefault(); document.getElementById(b.href.replace('/', ''))?.scrollIntoView({ behavior: 'instant' }) }}
               className={
                 (b.primary
                   ? 'bg-primary hover:bg-primary-600 text-black '
