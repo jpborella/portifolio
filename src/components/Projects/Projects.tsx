@@ -11,12 +11,14 @@ export default function Projects() {
 
       <div className="grid gap-6 md:grid-cols-2">
         {portfolioData.projects.map((p) => (
-          <article key={p.title} className="rounded-xl bg-surface/60 border border-white/10 shadow-soft overflow-hidden flex flex-col">
+          <article key={p.title} className="rounded-xl bg-surface/60 border border-white/10 shadow-soft overflow-hidden flex flex-col h-full">
             <img src={p.image} alt={p.title} className="w-full aspect-[16/9] object-cover" />
-            <div className="p-5 flex flex-col gap-3">
-              <h3 className="text-lg font-semibold">{p.title}</h3>
-              <p className="text-sm text-white/75">{p.summary}</p>
-              <div className="mt-2">
+            <div className="p-5 flex flex-col flex-1">
+              <div className="flex-1">
+                <h3 className="text-lg font-semibold">{p.title}</h3>
+                <p className="text-sm text-white/75 mt-3">{p.summary}</p>
+              </div>
+              <div className="mt-4">
                 <a href={p.link} target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 bg-primary hover:bg-primary-600 text-black px-4 py-2 rounded-md text-sm font-medium border border-white/10">
                   Ver Projeto
                   <span aria-hidden>↗</span>
