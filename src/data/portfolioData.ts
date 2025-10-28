@@ -19,7 +19,7 @@ export const portfolioData = {
     ],
   },
   about: {
-    bio: "Sou um desenvolvedor web júnior apaixonado por tecnologia, aprendizado contínuo e desafios que envolvem criatividade e lógica. Tenho forte base em React, TypeScript e Tailwind CSS, focando sempre em trazer soluções eficientes, código limpo e interfaces modernas em meus projetos e estudos. Atualmente, estou em formação fullstack, com o frontend concluído e backend em andamento. Valorizo o trabalho em equipe, a troca de experiências e a oportunidade de contribuir para projetos reais enquanto evoluo tecnicamente. Busco minha primeira oportunidade profissional para crescer junto a uma equipe colaborativa, aplicando meus conhecimentos e desenvolvendo ainda mais minhas habilidades na criação de experiências positivas para o usuário.",
+    bio: "Sou um desenvolvedor web júnior apaixonado por tecnologia, aprendizado contínuo e desafios que envolvem criatividade e lógica. Focando sempre em trazer soluções eficientes, código limpo e interfaces modernas em meus projetos e estudos. Atualmente, estou em formação fullstack, com o frontend concluído e backend em andamento. Valorizo o trabalho em equipe, a troca de experiências e a oportunidade de contribuir para projetos reais enquanto evoluo tecnicamente. Busco minha primeira oportunidade profissional para crescer junto a uma equipe colaborativa, aplicando meus conhecimentos e desenvolvendo ainda mais minhas habilidades na criação de experiências positivas para o usuário.",
     personalInfo: [
       {
         label: "E-mail",
@@ -83,7 +83,7 @@ export const portfolioData = {
     {
       title: "Landing Page para Apresentação Pessoal",
       summary:
-        "Uma landing page clean e moderna desenvolvida para apresentar informações pessoais e profissionais de forma clara e objetiva. O design responsivo e otimizado para conversão destaca um conteúdo focado com chamadas para ação, ideal para projetos pessoais, freelancers ou pequenos negócios.",
+        "Página de apresentação desenvolvida com foco em clareza, modernidade e alto potencial de conversão. O layout responsivo garante ótima experiência em qualquer dispositivo, enquanto o design minimalista valoriza informações pessoais e profissionais essenciais. Ideal para destacar projetos pessoais, com chamadas para ação estratégicas para impulsionar resultados.",
       link: "https://ana-landing-page-kappa.vercel.app/",
       image: "/images/project-landing-page.png",
     },
