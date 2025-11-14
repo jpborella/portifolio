@@ -84,7 +84,7 @@ export const portfolioData = {
       title: "Landing Page para Apresentação Pessoal",
       summary:
         "Página de apresentação desenvolvida com foco em clareza, modernidade e alto potencial de conversão. O layout responsivo garante ótima experiência em qualquer dispositivo, enquanto o design minimalista valoriza informações pessoais e profissionais essenciais. Ideal para destacar projetos pessoais, com chamadas para ação estratégicas para impulsionar resultados.",
-      link: "https://ana-landing-page-kappa.vercel.app/",
+      link: "https://vendedores.teknorte.com.br/ana-paula/",
       image: "/images/project-landing-page.png",
     },
     {
