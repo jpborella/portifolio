@@ -24,7 +24,7 @@ export default function Header() {
         <a href="#home"
           className="font-semibold tracking-tight text-xl"
           onClick={(e) => { e.preventDefault(); document.getElementById('home')?.scrollIntoView({ behavior: 'instant' }) }}>
-          <span className="bg-gradient-to-r  from-primary to-secondary bg-clip-text text-transparent">JP Borella</span>
+          <span className="text-primary/80">JP Borella</span>
         </a>
 
         <button

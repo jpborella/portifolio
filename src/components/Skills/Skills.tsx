@@ -7,7 +7,7 @@ export default function Skills() {
     <section className="section" aria-labelledby="skills-title">
       <div className="mb-8 text-center">
         <h2 id="skills-title" className="text-3xl sm:text-4xl font-extrabold text-white">Minhas Habilidades</h2>
-        <div className="mx-auto mt-1 h-1 w-24 bg-gradient-to-r from-primary to-secondary rounded-full" />
+        <div className="mx-auto mt-1 h-1 w-24 bg-primary/70 rounded-full" />
         <p className="mt-3 text-white/70">Tecnologias e metodologias que domino para criar aplicações web modernas e eficientes</p>
       </div>
       <div className="grid gap-6 md:grid-cols-3">

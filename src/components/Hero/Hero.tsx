@@ -8,7 +8,7 @@ export default function Hero() {
         <h1 className="text-5xl sm:text-6xl lg:text-7xl font-extrabold leading-tight text-white">
           {fullName}
         </h1>
-        <p className="mt-4 text-2xl text-primary font-semibold">{title}</p>
+        <p className="mt-4 text-2xl text-primary/80 font-semibold">{title}</p>
         <p className="mt-3 max-w-2xl text-white/75 mx-auto md:mx-0 text-lg">{subtitle}</p>
         <div className="mt-6 flex flex-wrap gap-3 justify-center md:justify-start text-base">
           {actionButtons.map((b) => (
@@ -36,7 +36,7 @@ export default function Hero() {
             className="size-64 sm:size-72 md:size-80 rounded-full ring-2 ring-white/10 shadow-soft object-cover"
           />
         ) : (
-          <div className="size-64 sm:size-72 md:size-80 rounded-full ring-2 ring-white/10 shadow-soft bg-gradient-to-br from-primary/30 to-secondary/30" aria-hidden="true" />
+          <div className="size-64 sm:size-72 md:size-80 rounded-full ring-2 ring-white/10 shadow-soft bg-primary/20" aria-hidden="true" />
         )}
       </div>
     </section>

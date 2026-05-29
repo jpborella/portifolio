@@ -5,7 +5,7 @@ export default function Projects() {
     <section className="section" aria-labelledby="projects-title">
       <div className="mb-8 text-center">
         <h2 id="projects-title" className="text-3xl sm:text-4xl font-extrabold text-white">Meus Projetos</h2>
-        <div className="mx-auto mt-1 h-1 w-24 bg-gradient-to-r from-primary to-secondary rounded-full" />
+        <div className="mx-auto mt-1 h-1 w-24 bg-primary/70 rounded-full" />
         <p className="mt-3 text-white/70">Confira alguns dos projetos que desenvolvi, demonstrando minhas habilidades técnicas e criatividade</p>
       </div>
 

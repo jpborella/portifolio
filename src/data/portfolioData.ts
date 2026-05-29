@@ -10,8 +10,8 @@ export const portfolioData = {
   },
   hero: {
     fullName: "João Paulo Lemes Borella",
-    title: "Desenvolvedor Web Júnior",
-    subtitle: "Desenvolvedor Web Frontend, futuro Fullstack em formação.",
+    title: "Desenvolvedor Web Jr",
+    subtitle: "Desenvolvedor Web Frontend, Fullstack em formação.",
     profileImage: "/images/perfil-png.png",
     actionButtons: [
       { text: "Projetos", href: "/projetos", primary: true },
@@ -19,7 +19,7 @@ export const portfolioData = {
     ],
   },
   about: {
-    bio: "Sou um desenvolvedor web júnior apaixonado por tecnologia, aprendizado contínuo e desafios que envolvem criatividade e lógica. Focando sempre em trazer soluções eficientes, código limpo e interfaces modernas em meus projetos e estudos. Atualmente, estou em formação fullstack, com o frontend concluído e backend em andamento. Valorizo o trabalho em equipe, a troca de experiências e a oportunidade de contribuir para projetos reais enquanto evoluo tecnicamente. Busco minha primeira oportunidade profissional para crescer junto a uma equipe colaborativa, aplicando meus conhecimentos e desenvolvendo ainda mais minhas habilidades na criação de experiências positivas para o usuário.",
+    bio: "Sou desenvolvedor web junior focado em solucoes eficientes, codigo limpo e interfaces modernas. Frontend concluido e formacao fullstack em andamento, trabalho com React, Node.js e Prisma em projetos praticos. Busco oportunidade para contribuir e evoluir em um time colaborativo.",
     personalInfo: [
       {
         label: "E-mail",
@@ -36,7 +36,7 @@ export const portfolioData = {
       {
         label: "LinkedIn",
         value: "João Paulo L. Borella",
-        href: "https://www.linkedin.com/in/jo%C3%A3o-paulo-l-borella-738a56139/",
+        href: "https://www.linkedin.com/in/jpborella/",
         icon: "FaLinkedin",
       },
       {
@@ -124,6 +124,6 @@ export const portfolioData = {
     ],
   },
   footer: {
-    copyright: "© 2025 João Paulo Lemes Borella.",
+    copyright: "João Paulo Lemes Borella.",
   },
 };

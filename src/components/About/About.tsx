@@ -7,7 +7,7 @@ export default function About() {
     <section className="section" aria-labelledby="about-title">
       <div className="mb-8 text-center">
         <h2 id="about-title" className="text-3xl sm:text-4xl font-extrabold text-white">Sobre Mim</h2>
-        <div className="mx-auto mt-1 h-1 w-24 bg-gradient-to-r from-primary to-secondary rounded-full" />
+        <div className="mx-auto mt-1 h-1 w-24 bg-primary/70 rounded-full" />
       </div>
 
       <div className="grid gap-6 md:grid-cols-2">
@@ -33,8 +33,8 @@ export default function About() {
           </ul>
         </aside>
 
-        <article className="rounded-xl bg-surface/60 border border-white/10 p-6 shadow-soft" aria-label="Biografia">
-          <p className="leading-relaxed text-white/80">{bio}</p>
+        <article className="rounded-xl bg-surface/60 border border-white/10 p-6 shadow-soft flex items-center" aria-label="Biografia">
+          <p className="leading-relaxed text-white/80 indent-5 w-full" style={{ textAlign: 'justify' }}>{bio}</p>
         </article>
       </div>
     </section>

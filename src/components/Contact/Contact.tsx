@@ -7,7 +7,7 @@ export default function Contact() {
     <section className="section" aria-labelledby="contact-title">
       <div className="mb-8 text-center">
         <h2 id="contact-title" className="text-3xl sm:text-4xl font-extrabold text-white">Entre em Contato</h2>
-        <div className="mx-auto mt-1 h-1 w-24 bg-gradient-to-r from-primary to-secondary rounded-full" />
+        <div className="mx-auto mt-1 h-1 w-24 bg-primary/70 rounded-full" />
         <p className="mt-3 text-white/80 max-w-2xl mx-auto">Estou disponível para oportunidades e colaborações. Vamos conversar sobre como posso contribuir com seu projeto!</p>
       </div>
 
