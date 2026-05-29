@@ -9,7 +9,7 @@ export default function Footer() {
           <p className=" text-white/60">© {year} {portfolioData.footer.copyright}</p>
           <a
             href="#home"
-            onClick={(e) => { e.preventDefault(); document.getElementById('home')?.scrollIntoView({ behavior: 'instant' }) }}
+            onClick={(e) => { e.preventDefault(); document.getElementById('home')?.scrollIntoView({ behavior: 'auto' }) }}
             className=" text-white/60 hover:text-white"
           >
             Voltar ao topo ↑

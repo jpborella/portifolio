@@ -23,7 +23,7 @@ export default function Header() {
       <nav className="container-padded flex items-center justify-between h-14">
         <a href="#home"
           className="font-semibold tracking-tight text-xl"
-          onClick={(e) => { e.preventDefault(); document.getElementById('home')?.scrollIntoView({ behavior: 'instant' }) }}>
+          onClick={(e) => { e.preventDefault(); document.getElementById('home')?.scrollIntoView({ behavior: 'auto' }) }}>
           <span className="text-primary/80">JP Borella</span>
         </a>
 
@@ -43,7 +43,7 @@ export default function Header() {
               <li key={l.href}>
                 <a
                   href={`#${id}`}
-                  onClick={(e) => { e.preventDefault(); document.getElementById(id)?.scrollIntoView({ behavior: 'instant' }) }}
+                  onClick={(e) => { e.preventDefault(); document.getElementById(id)?.scrollIntoView({ behavior: 'auto' }) }}
                   className="text-base text-white/80 hover:text-primary transition-colors"
                 >
                   {l.name}
@@ -63,7 +63,7 @@ export default function Header() {
                 <li key={l.href}>
                   <a
                     href={`#${id}`}
-                    onClick={(e) => { e.preventDefault(); document.getElementById(id)?.scrollIntoView({ behavior: 'instant' }); setOpen(false) }}
+                    onClick={(e) => { e.preventDefault(); document.getElementById(id)?.scrollIntoView({ behavior: 'auto' }); setOpen(false) }}
                     className="block py-2 text-white/80 hover:text-primary transition-colors"
                   >
                     {l.name}
